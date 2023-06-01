@@ -10,7 +10,7 @@ li{
 .contenedor-principal{
     display: flex;
     flex-direction: row-reverse;
-    background-color: white;
+    background-color:  #cdd2da;
     width: 1200px;
     margin: 40px auto;
     box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
@@ -28,22 +28,24 @@ li{
     font-weight: 700;
 }
 
-/* .proyectos{
-    
+ .proyectos{
+    border-top:1px solid #FB6D3A;
+}
+.experiencia-laboral{
+    border-top:1px solid #FB6D3A; 
 }
 
-.experiencia-laboral{
-    
-}
 
 .educacion{
-    
-} */
+    border-top:1px solid #FB6D3A; 
+    border-bottom:1px solid #FB6D3A;
+}
 
 /* Informacion general */
 
 .informacion-general{
     padding: 100px 88px;
+    
 }
 
 .nombre{
@@ -53,6 +55,7 @@ li{
     line-height: 55px;
     margin-top: 20px;
     margin-bottom: 25px;
+    border-top:1px solid #FB6D3A;
 }
 
 /* Descripcion */
@@ -78,7 +81,8 @@ margin-top: 45px;
 
 .informacion-lateral{
     background-color: #1E2939;
-    padding: 40px 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 /* proyectos*/
@@ -194,4 +198,15 @@ margin-top: 45px;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
+}
+
+
+
+.line-separation{
+    border-top: 1px solid #FB6D3A;
+    margin: 20px;
+}
+
+.line-separation2{
+    border-top: 1px solid #FB6D3A;
 }
