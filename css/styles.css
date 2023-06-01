@@ -38,7 +38,6 @@ li{
 
 .educacion{
     border-top:1px solid #FB6D3A; 
-    border-bottom:1px solid #FB6D3A;
 }
 
 /* Informacion general */
@@ -205,6 +204,10 @@ margin-top: 45px;
 .line-separation{
     border-top: 1px solid #FB6D3A;
     margin: 20px;
+}
+
+.line-separation2{
+    border-top: 1px solid #FB6D3A;
 }
 
 .line-separation2{
